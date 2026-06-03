@@ -37,30 +37,13 @@ export default function Login() {
             {/* Background Glow */}
             <div className="fixed top-[-200px] left-1/2 -translate-x-1/2 w-[800px] h-[600px] bg-[radial-gradient(ellipse_at_center,_rgba(74,222,128,0.08)_0%,_transparent_65%)] pointer-events-none"></div>
 
-            {/* Navbar */}
-            <nav className="relative z-10 flex items-center justify-between px-8 py-5 border-b border-white/10 backdrop-blur-md bg-[#0a0e1a]/90">
-                <Link
-                    to="/"
-                    className="flex items-center gap-3 text-xl font-extrabold font-['Syne']"
-                >
-                    <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-green-400 to-cyan-400 flex items-center justify-center text-black font-bold">
-                        ₿
-                    </div>
-                    Fino<span className="text-green-400">Track</span>
-                </Link>
-
-                <div className="text-sm text-gray-400 hidden md:block">
-                    Nepal’s Future of Smart Personal Finance
-                </div>
-            </nav>
-
             {/* Login Section */}
             <div className="relative z-10 flex flex-1 items-center justify-center px-4 py-16">
                 <div className="w-full max-w-md bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl shadow-2xl p-8">
                     {/* Header */}
                     <div className="text-center mb-8">
                         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-green-400/10 border border-green-400/20 text-green-400 text-xs uppercase tracking-wider mb-4">
-                            Manage Your Finance • 
+                            Manage Your Finance •
                         </div>
 
                         <h1 className="text-3xl font-['Syne'] font-extrabold mb-3 leading-tight">
