@@ -21,7 +21,7 @@ export default function HomePage() {
                 {/* Badge */}
                 <div className="inline-flex items-center gap-[7px] bg-[rgba(74,222,128,0.1)] border border-[rgba(74,222,128,0.35)] text-[#4ade80] text-[0.78rem] font-medium px-[14px] py-[5px] rounded-full mb-8 tracking-[0.04em]">
                     <span className="w-[6px] h-[6px] rounded-full bg-[#4ade80] animate-pulse" />
-                    Now in development — MERN Stack
+                    Nepal's first Finance Tracker — 
                 </div>
 
                 {/* Heading */}
